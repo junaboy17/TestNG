@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite 
+			name="CompleteFrameWorks">
+	<test name="Different Testng Feature Test">
+		<classes>
+			<class name="test.HomePageTest" />
+			<class name="test.HomePageTest2" />
+		</classes>
+		
+		
+	</test>
+</suite>
+
