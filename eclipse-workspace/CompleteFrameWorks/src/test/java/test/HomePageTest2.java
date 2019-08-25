@@ -13,7 +13,7 @@ public class HomePageTest2 extends Hooks {
 		homef.startLogIn();
 		loginf.logInProcess("nightgroup@gmail.com", "night123");
 		homef.logOut();
-		assertEquals(textValidation("Login", home.logIn),true);
+		assertEquals(textValidation("Login", home.logIn, "Log Out Pic"),true);
 
 	}
 }

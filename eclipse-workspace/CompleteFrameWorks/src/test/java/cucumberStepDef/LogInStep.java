@@ -20,7 +20,7 @@ public class LogInStep extends Util{
 
 	@Then("I should see My Courses")
 	public void i_should_see() {
-		assertEquals(textValidation("My Courses", home.myCourses),true);
+		assertEquals(textValidation("My Course", home.myCourses, "Log In Pic2"),true);
 	}
 	
 }

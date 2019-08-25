@@ -21,7 +21,7 @@ public class HomePageTest extends Hooks{
 		
 		//assertEquals(homef.validateProName("Hi, night group"));
 		//assertEquals("FAILED : Profile Name not Matched!!!",homef.validateProName("James Williams-X"),true);
-		assertEquals(textValidation("My Courses", home.myCourses),true);
+		assertEquals(textValidation("My Courses", home.myCourses, "Log In"),true);
 
 	}
 	

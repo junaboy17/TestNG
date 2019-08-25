@@ -31,7 +31,7 @@ public class HomePageFunctions extends Util {
 	
 	public void validateProName(String desiredText) {
 		//textValidation(desiredText, home.profileName);
-		assertEquals(textValidation(desiredText, home.myCourses),true);
+		assertEquals(textValidation(desiredText, home.myCourses, "Pro Name"),true);
 
 		
 	}

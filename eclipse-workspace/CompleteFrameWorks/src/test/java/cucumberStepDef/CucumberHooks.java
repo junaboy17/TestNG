@@ -1,7 +1,5 @@
 package cucumberStepDef;
 
-import functions.HomePageFunctions;
-import functions.LogInFunction;
 import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import utility.Util;
