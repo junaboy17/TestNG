@@ -9,8 +9,7 @@ import functions.LogInFunction;
 import utility.Hooks;
 
 public class HomePageTest extends Hooks{
-	HomePageFunctions homef = new HomePageFunctions();
-	LogInFunction loginf = new LogInFunction();
+	
 
 
 	

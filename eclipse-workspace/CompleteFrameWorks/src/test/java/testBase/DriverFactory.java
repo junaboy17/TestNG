@@ -22,7 +22,7 @@ public WebDriver launchwith(String browser, String URL) {
 		driver.manage().window().maximize();
 		driver.get(URL);
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 	}
 	
 	else if (browser.equalsIgnoreCase("mozilla")) {

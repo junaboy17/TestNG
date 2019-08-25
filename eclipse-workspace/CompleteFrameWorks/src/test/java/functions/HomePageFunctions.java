@@ -23,6 +23,7 @@ public class HomePageFunctions extends Util {
 		WebElement logOut = driver.findElement(By.xpath(home.logOut));
 
 	 driver.findElement(By.xpath(home.profileDropDown)).click();
+
 	 wait(2000);
 	 wait.until(ExpectedConditions.elementToBeClickable(logOut)).click();
 	}

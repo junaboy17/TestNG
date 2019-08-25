@@ -1,5 +1,6 @@
 package test;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import testBase.DriverFactory;
@@ -13,7 +14,11 @@ public class TestRun extends Util{
 	
 	@Test
 	public void launchWith1() {
-			launchwith("chrome", "https://www.phptravels.net");
+			launchwith("chrome", "https://www.google.com");
+			driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div/div[1]/div/div[1]/input")).sendKeys("Arif");;
+			System.out.println(driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div/div[1]/div/div[1]/input")).isEnabled());
+			wait(3000);
+			close();
 			//login.logIn.click();
 		}
 	

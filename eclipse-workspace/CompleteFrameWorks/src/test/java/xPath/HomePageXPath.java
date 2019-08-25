@@ -1,7 +1,11 @@
 package xPath;
 
+import org.openqa.selenium.WebDriver;
+
 public class HomePageXPath {
 
+	WebDriver driver2;
+	
 	public String logIn = "//a[contains(text(),'Login')]";
 	public String welcomeHeadLine = "//h2[@class='headline']";
 	public String signUp = "//a[@id='header-sign-up-btn']";
